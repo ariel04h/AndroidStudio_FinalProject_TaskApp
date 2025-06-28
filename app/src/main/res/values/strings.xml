@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">TaskApp</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="task_title">Task Title</string>
+    <string name="task_description">Task Description</string>
+    <string name="add_task">Add Task</string>
+    <string name="sample_title">Sample Title</string>
+    <string name="sample_description">Sample description</string>
+    <string name="due_1_1_2025">📅 Due: 1/1/2025</string>
+    <string name="done">Done</string>
+    <string name="delete">Delete</string>
+    <string name="list_of_completed_tasks">List of completed tasks</string>
+    <string name="logout">Logout</string>
+</resources>

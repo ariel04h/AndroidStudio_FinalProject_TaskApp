@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/profileRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal" >
+
+    <!-- Profile picture -->
+    <ImageView
+        android:id="@+id/profileImage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="12dp"
+        android:src="@drawable/ic_user_avatar"
+        android:contentDescription="User avatar"
+        android:scaleType="centerCrop"
+        android:background="@drawable/circle_background"
+        android:padding="8dp" />
+
+    <!-- User email -->
+    <TextView
+        android:id="@+id/emailDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="user@example.com"
+        android:textSize="16sp"
+        android:paddingBottom="16dp"
+        android:textStyle="bold" />
+
+    <!-- Completed tasks -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/completedTaskRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:contentDescription="List of completed tasks"
+        android:paddingTop="8dp" />
+
+    <!-- Logout -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/logoutButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:layout_marginTop="12dp" />
+
+</LinearLayout>
